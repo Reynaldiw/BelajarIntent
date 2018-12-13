@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="25dp"
+    android:gravity="center">
+
+   <Button
+       android:id="@+id/btnPindahHalaman"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Pindah Halaman"
+       android:layout_marginBottom="25dp" />
+
+    <Button
+        android:id="@+id/btnPindahBawaData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Halaman Membawa Data"
+        android:layout_below="@+id/btnPindahHalaman"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnPindahBawaObjek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Halaman Membawa Objek"
+        android:layout_below="@+id/btnPindahBawaData"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnPindahCallPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah CallPhone"
+        android:layout_below="@+id/btnPindahBawaObjek"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnPindahEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Email"
+        android:layout_below="@+id/btnPindahCallPhone"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnPindahCallBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPindahEmail"
+        android:text="Pindah Callback"
+        android:layout_marginBottom="25dp"/>
+
+</RelativeLayout>
